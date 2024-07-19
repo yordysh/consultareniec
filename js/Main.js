@@ -11,7 +11,7 @@ function traerDatos() {
   )
     .then((datos) => datos.json())
     .then((datos) => {
-      console.log(datos.data);
+      //   console.log(datos.data);
       document.getElementById("doc").value = datos.data.numero;
       document.getElementById("nombre").value = datos.data.nombres;
       document.getElementById("apellido").value = datos.data.nombre_completo;
